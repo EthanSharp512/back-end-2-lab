@@ -22,7 +22,7 @@ module.exports = {
         let newHouse = {
             id: globalId,
             address,
-            price,
+            price: +price,
             imageURL
         }
 
